@@ -1,0 +1,60 @@
+name: funapp
+description: "A new Flutter project."
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  custom_navigation_bar: ^0.8.2
+  slide_switcher: ^1.1.2
+  stories_for_flutter: ^1.2.1
+  intl: ^0.19.0
+  swipeable_card_stack: ^0.0.5
+ 
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets\icons\iconhead.png
+   - assets\images\davidjohn.png
+   - assets\icons\desert.png
+   - assets\icons\gardening.png
+   - assets\icons\mountain.png
+   - assets\icons\repair.png
+   - assets\icons\waves.png
+   - assets\icons\shipping.png
+   - assets\icons\skyscraper.png
+   - assets\icons\sport-car.png
+   - assets\icons\river.png
+   - assets\icons\record.png
+   - assets\icons\heart.png
+   - assets\icons\heart2.png
+   - assets\icons\settings.png
+   - assets\images\selena.png
+   - assets\images\clara.png
+   - assets\images\fabian.png
+   - assets\icons\music.png
+   - assets\icons\person.png
+   - assets\icons\home.png
+   - assets\icons\compass.png
+   - assets\icons\chat.png
+   - assets\icons\chat2.png
+   - assets\icons\user.png
+   - assets\icons\close.png
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+   android: true
+   ios: true
+   image_path: "assets/appicons/icon.png"
+   min_sdk_android: 36
+
